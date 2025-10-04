@@ -8,6 +8,17 @@
             "mainClass": "com.bankingsystemcc1.M1_config_service.M1ConfigServiceApplication",
             "projectName": "M1-config-service",
             "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=33919 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=M1-config-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-M1RegistryServiceApplication<m1-registry-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.banksysteme.m1_registry_service.M1RegistryServiceApplication",
+            "projectName": "m1-registry-service",
+            "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
     ]
