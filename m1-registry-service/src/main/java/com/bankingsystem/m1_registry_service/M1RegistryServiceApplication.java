@@ -1,4 +1,4 @@
-package com.banksysteme.m1_registry_service;
+package com.bankingsystem.m1_registry_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
